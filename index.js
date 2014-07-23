@@ -7,5 +7,5 @@ module.exports = function(content) {
   }
 
   var content = fs.readFileSync(this.resourcePath);
-  return "module.exports = " + doT.template(content);
+  return "module.exports = " + dot.template(content);
 };
