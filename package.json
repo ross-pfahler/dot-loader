@@ -1,0 +1,16 @@
+{
+  "name": "dot-loader",
+  "description": "dot template loader for webpack",
+  "author": "Ross Pfahler <ross.pfahler@gmail.com>",
+  "main": "index.js",
+  "version": "0.1.0",
+  "dependencies": {
+    "dot": "1.0.2"
+  },
+  "repository": "http://www.github.com/ross-pfahler/dot-loader",
+  "licenses": [{
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/mit-license.php"
+  }]
+}
+
