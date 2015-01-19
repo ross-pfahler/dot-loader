@@ -5,6 +5,8 @@ module.exports = function(content) {
   if (this.cacheable) {
     this.cacheable();
   }
+  
+  dot.templateSettings.selfcontained = true;
 
   var content = fs.readFileSync(this.resourcePath);
   return "module.exports = " + dot.template(content);
