@@ -5,7 +5,7 @@
   "main": "index.js",
   "version": "0.1.0",
   "dependencies": {
-    "dot": "1.0.2"
+    "dot": "1.0.3"
   },
   "repository": "http://www.github.com/ross-pfahler/dot-loader",
   "licenses": [{
