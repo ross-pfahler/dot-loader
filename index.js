@@ -1,6 +1,5 @@
 var dot = require('dot');
 var fs = require('fs');
-var loader-utils = require('loader-utils');
 var path = require('path');
 
 function findConfig(dir, filename){
