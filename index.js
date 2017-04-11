@@ -3,9 +3,9 @@ var fs = require('fs');
 var path = require('path');
 
 function findConfig(dir, filename){
-	var path = path.join(dir, filename);
-	if (fs.existsSync(path)){
-		return fs.readFileSync(path);
+	var configPath = path.join(dir, filename);
+	if (fs.existsSync(configPath)){
+		return fs.readFileSync(configPath);
 	}
 
 	var parentDir = path.dirname(dir);
