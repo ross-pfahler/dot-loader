@@ -15,7 +15,13 @@ var template = require("dot!./file.dot");
 module.exports = {
   module: {
     loaders: [
-      { test: /\.dot$/, loader: "dot-loader" }
+      {
+        test: /\.dot$/,
+        loader: "dot-loader",
+        options: {
+          // your custom dot options
+        }
+      }
     ]
   }
 };

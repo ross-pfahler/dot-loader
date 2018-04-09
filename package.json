@@ -5,12 +5,14 @@
   "main": "index.js",
   "version": "0.1.1",
   "dependencies": {
-    "dot": "1.0.3"
+    "dot": "1.0.3",
+    "loader-utils": "^1.1.0"
   },
   "repository": "http://www.github.com/ross-pfahler/dot-loader",
-  "licenses": [{
-    "type": "MIT",
-    "url": "http://www.opensource.org/licenses/mit-license.php"
-  }]
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ]
 }
-
