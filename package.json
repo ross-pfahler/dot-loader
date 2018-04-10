@@ -3,7 +3,7 @@
   "description": "dot template loader for webpack",
   "author": "Ross Pfahler <ross.pfahler@gmail.com>",
   "main": "index.js",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "dependencies": {
     "dot": "1.0.3",
     "loader-utils": "^1.1.0"
