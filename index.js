@@ -11,6 +11,5 @@ module.exports = function(content) {
   options.selfcontained = true;
   dot.templateSettings = Object.assign(dot.templateSettings, options);
 
-  var content = fs.readFileSync(this.resourcePath);
   return "module.exports = " + dot.template(content);
 };
